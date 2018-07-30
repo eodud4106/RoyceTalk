@@ -201,6 +201,7 @@ public class MessageActivity extends AppCompatActivity {
                         comments.add(comment_origin);
                     }
 
+                    //에러처리부분
                     try {
                         if (!comments.get(comments.size() - 1).readUsers.containsKey(uid)) {
                             //읽음처리 콜백부분
